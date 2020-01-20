@@ -1,6 +1,6 @@
 using System;
 
-namespace WasteRecycling
+namespace Codecool.WasteRecycling
 {
     public class DustbinContentException : Exception
     {

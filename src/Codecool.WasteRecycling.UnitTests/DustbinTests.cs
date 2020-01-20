@@ -1,8 +1,6 @@
-using System;
 using NUnit.Framework;
-using WasteRecycling;
 
-namespace WasteRecycling.Tests
+namespace Codecool.WasteRecycling.UnitTests
 {
     public class DustbinTests
     {
