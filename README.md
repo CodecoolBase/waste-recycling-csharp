@@ -175,12 +175,18 @@ and `cleaned` (`true` if the garbage is clean from the start or `false` otherwis
 
 This file should contain all the logic, what our automated dustbin can do.
 
+### Fields
+
+* `PaperGarbage[] paperContent`: an array, stores `PaperGarbage` instances
+* `PlasticGarbage[] plasticContent`: an array, stores `PlasticGarbage` instances
+* `Garbage[] houseWasteContent`: an array, stores `Garbage` instances
+
 ### Properties
 
 * `string Color`: stores the dustbin's color
-* `PaperGarbage[] PaperContent`: an array, stores `PaperGarbage` instances
-* `PlasticGarbage[] PlasticContent`: an array, stores `PlasticGarbage` instances
-* `Garbage[] HouseWasteContent`: an array, stores `Garbage` instances
+* `PaperCount`: read-only, returns the number of `PaperGarbage` instances in the dustbin
+* `PlasticCount`: read-only, returns the number of `PlasticGarbage` instances in the dustbin
+* `HouseWasteCount`: read-only, returns the number of `Garbage` instances in the dustbin
 
 #### Methods
 
